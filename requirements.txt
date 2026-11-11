@@ -1,0 +1,26 @@
+
+# API framework and ASGI server
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.34,<1.0
+
+# Official MCP Python SDK v2
+mcp[cli]>=2.0,<3.0
+
+# Validation and configuration
+pydantic>=2.10,<3.0
+pydantic-settings>=2.7,<3.0
+python-dotenv>=1.0,<2.0
+
+# External API communication
+httpx>=0.28,<1.0
+publicsuffix2>=2.20191221
+
+# Database and migrations
+SQLAlchemy[asyncio]>=2.0,<3.0
+asyncpg>=0.30,<1.0
+alembic>=1.14,<2.0
+
+# Testing
+pytest>=8.3,<9.0
+pytest-asyncio>=0.25,<2.0
+respx>=0.22,<1.0
